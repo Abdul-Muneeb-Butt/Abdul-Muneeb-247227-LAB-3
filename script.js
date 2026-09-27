@@ -13,3 +13,18 @@ function getTotal() {
 
 console.log(getTotal());
 
+function getBig() {
+    let big = numbers[0];
+
+    for (let i = 1; i < numbers.length; i++) {
+        if (numbers[i] > big) {
+            big = numbers[i];
+        }
+    }
+
+    return big;
+}
+
+console.log(getBig());
+
+
