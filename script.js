@@ -42,3 +42,12 @@ function getAbove() {
 
 console.log(getAbove());
 
+
+document.getElementById("show").addEventListener("click", function() {
+    document.getElementById("total").textContent = getTotal();
+
+    document.getElementById("big").textContent = getBig();
+
+    document.getElementById("above").textContent = getAbove();
+});
+
