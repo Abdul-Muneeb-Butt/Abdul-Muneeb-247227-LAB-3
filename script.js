@@ -28,3 +28,17 @@ function getBig() {
 console.log(getBig());
 
 
+function getAbove() {
+    let count = 0;
+
+    for (let i = 1; i < numbers.length; i++) {
+        if (numbers[i] > numbers[0]) {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+console.log(getAbove());
+
