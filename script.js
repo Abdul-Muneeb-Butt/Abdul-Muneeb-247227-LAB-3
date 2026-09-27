@@ -1,4 +1,5 @@
 
+// Task 2: Total
 let numbers = [2, 2, 7];
 
 function getTotal() {
@@ -13,6 +14,8 @@ function getTotal() {
 
 console.log(getTotal());
 
+
+// Task 3: Largest
 function getBig() {
     let big = numbers[0];
 
@@ -28,6 +31,7 @@ function getBig() {
 console.log(getBig());
 
 
+// Task 4: Bigger than the first
 function getAbove() {
     let count = 0;
 
@@ -43,11 +47,9 @@ function getAbove() {
 console.log(getAbove());
 
 
+// Task 5: Show on the page
 document.getElementById("show").addEventListener("click", function() {
     document.getElementById("total").textContent = getTotal();
-
     document.getElementById("big").textContent = getBig();
-
     document.getElementById("above").textContent = getAbove();
 });
-
